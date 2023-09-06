@@ -1,33 +1,29 @@
 export default function Footer(){
-  return(
-      <>
-      <footer className='bg-black text-blue-900 flex justify-evenly py-10'>
-        <div>
-          <h1 className='font-bold text-3xl'>Contato</h1>
-          <ol className=' text-left'>
-            <li>4002-8922</li>
-            <li>4002-8922</li>
-            <li>4002-8922</li>
-          </ol>
-        </div>
-        <div>
-          <h1 className='font-bold text-3xl'>E-mail</h1>
-          <ol className=' text-left'>
-            <li>exemplo@gmail.com</li>
-            <li>exemplo@gmail.com</li>
-            <li>exemplo@gmail.com</li>
-          </ol>
-        </div>
-        <div>
-          <h1 className='font-bold text-3xl'>More info</h1>
-          <ol className=' text-left'>
-            <li>E o PIX</li>
-            <li>E o PIX</li>
-            <li>E o PIX</li>
-          </ol>
-        </div>
-      </footer>
-      </>
-    
-  )
+    let result = 2 + 9
+    return(
+        <>
+        <footer className='bg-black text-white flex justify-evenly py-10'>
+           
+          
+            {result}
+            <nav>
+              <ul className=""> 
+              <h1 className="text-3xl text-rose-500 text-center">Component</h1>
+                <li className="text">
+                    <a href="https://nextjs.org/docs/app/api-reference/components/image">Component Image</a>
+                </li>
+                <h1>  </h1>
+                <li>
+
+                </li>
+                <h1> </h1>
+                <li>
+
+                </li>
+              </ul> 
+             </nav>
+        </footer>
+        </>
+      
+    )
 }
