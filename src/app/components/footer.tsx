@@ -1,5 +1,5 @@
 export default function Footer(){
-    let result = 2 + 9
+    let result = 2 + 9 
     return(
         <>
         <footer className='bg-black text-white flex justify-evenly py-10'>
