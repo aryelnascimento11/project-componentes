@@ -1,6 +1,6 @@
 export default function Header() {
     return(
-        <header className='bg-sky-500 top-0 fixed w-screen flex place-items-center p-6 justify-between shadow-lg rounded-bl-lg rounded-br-lg '>
+        <header className='bg-purple-500 top-0 fixed w-screen flex place-items-center p-6 justify-between shadow-lg rounded-bl-lg rounded-br-lg '>
         <h1 className='text-4xl  font-semibold text-black'>My Next.js Components</h1>
         <nav className='flex'>
           <ul className='flex'>

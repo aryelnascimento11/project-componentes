@@ -4,9 +4,9 @@ const nextConfig = {
         remotePatterns: [
           {
             protocol: 'https',
-            hostname: 'imagens.mdig.com.br',
+            hostname: 'cdn.pixabay.com',
             port: '',
-            pathname: '/thbs/45184mn.jpg',
+            pathname: '/photo/2015/04/23/22/00/tree-736885_1280.jpg',
           },
         ],
       },
