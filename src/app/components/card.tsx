@@ -2,16 +2,16 @@ import Image from "next/image"
 
 export default function Card() {
   return (
-    <main className='py-6 first:mt-0 bg-white'>
+    <main className='py-6 first:mt-0 bg-gray-300'>
       <section className='flex mt-5 justify-center'>
         <div className='bg-black  gap-10 from-black to-detail w-[80%] h-[28vw] p-6 shadow-lg flex'>
-          <div className='text-white flex flex-col w-[50%] justify-center'>
-            <h1 className='text-3xl text-blue-500 font-bold text-center '>But what is Next.js components?</h1>
+          <div className='text-gray-300 flex flex-col w-[50%] justify-center'>
+            <h1 className='text-3xl text-fuchsia-500 font-bold text-center '>But what is Next.js components?</h1>
             <p className='text-2xl font-bold text-center'>User interfaces can be broken down into smaller building blocks called components.</p>
-           
+
           </div>
           <Image
-            src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"
+            src="https://c.wallhere.com/photos/9c/2d/Microsoft_Windows-222026.jpg!d"
             width={"500"}
             height={"200"}
             alt=""
