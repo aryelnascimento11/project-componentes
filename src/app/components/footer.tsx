@@ -9,9 +9,9 @@ export default function Footer() {
                 <div>
                     <h1 className='text-5xl text-fuchsia-500 font-bold'>Contact:</h1>
                     <ol className=' flex p-4 text-left gap-5'>
-                        <a className='text-4xl text-pink-500' href="https://www.instagram.com/escolaeliti/"><GrInstagram /></a>
-                        <a className='text-4xl text-green-500' href="https://web.whatsapp.com/"><BsWhatsapp /></a>
-                        <a className='text-4xl text-blue-500' href="https://web.whatsapp.com/"><BsFacebook /></a>
+                        <a className='text-2xl text-pink-500' href="https://www.instagram.com/escolaeliti/"><GrInstagram /></a>
+                        <a className='text-2xl text-green-500' href="https://web.whatsapp.com/"><BsWhatsapp /></a>
+                        <a className='text-2xl text-blue-500' href="https://web.whatsapp.com/"><BsFacebook /></a>
                     </ol>
                 </div>
                 <div>

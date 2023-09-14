@@ -4,16 +4,16 @@ export default function Header() {
       <h1 className='text-4xl  font-semibold text-black'>My Next.js Components</h1>
       <nav className='flex'>
         <ul className='flex'>
-          <li className='rounded-lg px-3 py-1 text-black  hover:bg-[rgba(104,105,107,0.2)] hover:scale-110 cursor-pointer transition'>
+          <li className='rounded-lg px-3 py-1 text-black  hover:bg-[rgba(255,255,255,0.2)] hover:scale-110 cursor-pointer transition'>
             <a href="https://github.com/aryelnascimento11/project-componentes"> Git-Hub</a>
           </li>
-          <li className=' rounded-lg px-3 py-1 text-black hover:bg-[rgba(104,105,107,0.2)] hover:scale-110 cursor-pointer transition'>
+          <li className=' rounded-lg px-3 py-1 text-black  hover:bg-[rgba(255,255,255,0.2)] hover:scale-110 cursor-pointer transition'>
             <a href="https://vercel.com/dashboard">Projects Vercel</a>
           </li>
-          <li className='rounded-lg px-3 py-1 text-black hover:bg-[rgba(104,105,107,0.2)] hover:scale-110 cursor-pointer transition'>
+          <li className='rounded-lg px-3 py-1 text-black  hover:bg-[rgba(255,255,255,0.2)] hover:scale-110 cursor-pointer transition'>
             <a href="https://easy-portfolio-psi.vercel.app/">Portifolio</a>
           </li>
-          <li className='rounded-lg px-3 py-1 text-black hover:bg-[rgba(104,105,107,0.2)] hover:scale-110 cursor-pointer transition'>
+          <li className='rounded-lg px-3 py-1 text-black  hover:bg-[rgba(255,255,255,0.2)] hover:scale-110 cursor-pointer transition'>
             <a href="https://nextjs.org/docs/app/api-reference/components">Next-Components</a>
           </li>
         </ul>
