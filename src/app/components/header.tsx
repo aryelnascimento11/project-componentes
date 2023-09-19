@@ -16,6 +16,9 @@ export default function Header() {
           <li className='rounded-lg px-3 py-1 text-black  hover:bg-[rgba(255,255,255,0.2)] hover:scale-110 cursor-pointer transition'>
             <a href="https://nextjs.org/docs/app/api-reference/components">Next-Components</a>
           </li>
+          <li className='rounded-lg px-3 py-1 text-black  hover:bg-[rgba(255,255,255,0.2)] hover:scale-110 cursor-pointer transition'>
+            <a href="/pocos">po</a>
+          </li>
         </ul>
         <button className='group/enter flex gap-2 ml-10 rounded-2xl border border-black shadow-lg px-3 py-1 font-light'>Entrar
           <path id="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"></path>

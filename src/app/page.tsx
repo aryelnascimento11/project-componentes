@@ -3,20 +3,20 @@ import Header from './components/header'
 import Footer from './components/footer'
 import Banner from './components/banner'
 import Card from './components/card'
-import Exemplo from './components/exemplo'
-
-
-
-
 
 
 export default function Home() {
   return (
     <>
-      <Header/>
-      <Banner/>
-      <Card/>
-      <Footer/>
+      <Header />
+      <Banner />
+      <Card 
+      title='But what is Next.js components?'
+      desc='User interfaces can be broken down into smaller building blocks called components.'/>
+      <Card 
+      title='narue esta com fome?'
+      desc='Salve-se quem puder'/>
+      <Footer />
     </>
   )
 }
