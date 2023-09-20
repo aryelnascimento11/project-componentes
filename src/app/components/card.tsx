@@ -20,7 +20,6 @@ export default function Card(props: PropsCard) {
             height={"200"}
             alt=""
           />
-
         </div>
       </section>
     </main>
