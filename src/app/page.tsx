@@ -20,7 +20,6 @@ export default function Home() {
         title='Next.js Props?'
         desc='This API reference will help you understand how to use props and configuration options available for the Image Component. For features and usage, please see the Image Component page.'
       />
-      <Footer />
     </>
   )
 }

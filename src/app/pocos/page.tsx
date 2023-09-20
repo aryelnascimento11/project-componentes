@@ -1,7 +1,9 @@
 export default function Page() {
   return (
     <>
-      <h1>poco</h1>
+      <section className="h-screen place-items-center flex">
+        <h1>poco</h1>
+      </section>
     </>
   )
 
