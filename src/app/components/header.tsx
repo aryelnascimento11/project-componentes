@@ -3,7 +3,9 @@ import Link from 'next/link'
 export default function Header() {
   return (
     <header className='bg-purple-500 top-0 fixed w-screen flex place-items-center p-6 justify-between shadow-lg rounded-bl-lg rounded-br-lg '>
-      <h1 className='text-4xl  font-semibold text-black'>My Next.js Components</h1>
+      <Link href={'/'}>
+        <h1 className='text-4xl  font-semibold text-black'>My Next.js Components</h1>
+      </Link>
       <nav className='flex'>
         <ul className='flex'>
           <li className='rounded-lg px-3 py-1 text-black  hover:bg-[rgba(255,255,255,0.2)] hover:scale-110 cursor-pointer transition'>
