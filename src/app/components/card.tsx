@@ -1,7 +1,7 @@
 import Image from "next/image"
 
-interface PropsCard{
-  title: string
+interface PropsCard {
+  title: string,
   desc: string
 }
 
@@ -13,7 +13,6 @@ export default function Card(props: PropsCard) {
           <div className='text-gray-300 flex flex-col w-[50%] justify-center'>
             <h1 className='text-3xl text-fuchsia-500 font-bold text-center '>{props.title}</h1>
             <p className='text-2xl font-bold text-center'>{props.desc}</p>
-
           </div>
           <Image
             src="https://c.wallhere.com/photos/9c/2d/Microsoft_Windows-222026.jpg!d"

@@ -5,17 +5,22 @@ import Banner from './components/banner'
 import Card from './components/card'
 
 
+
+
+
 export default function Home() {
   return (
     <>
       <Header />
       <Banner />
-      <Card 
-      title='But what is Next.js components?'
-      desc='User interfaces can be broken down into smaller building blocks called components.'/>
-      <Card 
-      title='narue esta com fome?'
-      desc='Salve-se quem puder'/>
+      <Card
+        title='Next.js components.'
+        desc='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+      />
+      <Card
+        title='Next.js Props?'
+        desc='This API reference will help you understand how to use props and configuration options available for the Image Component. For features and usage, please see the Image Component page.'
+      />
       <Footer />
     </>
   )
