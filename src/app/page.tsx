@@ -11,7 +11,6 @@ import Card from './components/card'
 export default function Home() {
   return (
     <>
-      <Header />
       <Banner />
       <Card
         title='Next.js components.'
