@@ -1,10 +1,26 @@
-export default function Page() {
+import Banner from "./banner"
+import Card from "./card"
+
+export default function Pocos() {
   return (
     <>
-      <section className="h-screen place-items-center flex">
-        <h1>poco</h1>
-      </section>
+   <Banner />
+   <Card
+   title="Obra "
+   desc="s"
+   
+   />
+   <Card
+   title="v"
+   desc="s"
+   
+   />
+   <Card
+   title="v"
+   desc="s"
+   
+   />
     </>
-  )
 
+      )
 }
