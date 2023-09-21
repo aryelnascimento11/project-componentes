@@ -21,7 +21,7 @@ export default function Header() {
             <a href="https://nextjs.org/docs/app/api-reference/components">Next-Components</a>
           </li>
           <li className='rounded-lg px-3 py-1 text-black  hover:bg-[rgba(255,255,255,0.2)] hover:scale-110 cursor-pointer transition'>
-            <Link href="http://localhost:3002/sobre">Page</Link>
+            <Link href="/sobre">Page</Link>
           </li>
         </ul>
         <button className='group/enter flex gap-2 ml-10 rounded-2xl border border-black shadow-lg px-3 py-1 font-light'>Entrar
