@@ -11,7 +11,7 @@ export default function Footer() {
                     <ol className=' flex p-4 text-left gap-5'>
                         <a className='text-2xl text-pink-500' href="https://www.instagram.com/escolaeliti/"><GrInstagram /></a>
                         <a className='text-2xl text-green-500' href="https://web.whatsapp.com/"><BsWhatsapp /></a>
-                        <a className='text-2xl text-blue-500' href="https://web.whatsapp.com/"><BsFacebook /></a>
+                        <a className='text-2xl text-blue-500' href="https://www.facebook.com/"><BsFacebook /></a>
                     </ol>
                 </div>
                 <div>
