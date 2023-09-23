@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { AiFillDislike } from 'react-icons/ai'
 
 export default function Header() {
   return (
@@ -31,20 +32,21 @@ export default function Header() {
     //   </nav>
     // </header>
 
-    <header  className='flex bg-black  text-white w-screen h-[48] justify-between'>
-      <h1 className='text-4xl w-screen p-5'>Meu Treino </h1>
-      <nav className='flex'>
-        <ul className='flex p-5 text-1xl'>
-          <li>
-            <a className=" hover:bg-blue-500"href="">Akon</a>
+    <header className='flex bg-orange-500 text-black fixed top-0 w-screen justify-between rounded-br-lg rounded-bl-lg '>
+      <h1 className='text-4xl p-5'>Meu Treino </h1>
+      <nav className='flex p-5 justify-between'>
+        <ul className='flex'>
+          <li className='px-3 py-1 hover:bg-[rgba(255,255,255,0.2)] hover:scale-110 rounded-lg '>
+            <a href="">Akon</a>
           </li>
-          <li>
-          <a href="">Akon</a>
+          <li className='px-3 py-1 hover:bg-[rgba(255,255,255,0.2)] hover:scale-110 rounded-lg'>
+            <a href="">Akon</a>
           </li>
-          <li>
-          <a href="">Akon</a>
+          <li className='px-3 py-1 hover:bg-[rgba(255,255,255,0.2)] hover:scale-110 rounded-lg'>
+            <a href="">Akon</a>
           </li>
         </ul>
+        <button className=' border-2 rounded-lg border-black text-1xl group/enter justify-between'>Entrar<AiFillDislike/></button>
       </nav>
     </header>
   )
